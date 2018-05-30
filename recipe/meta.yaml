@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/google/protobuf/archive/v{{ version }}/protobuf-v{{ version }}.tar.gz
-  sha256: 6b5fb0727a6a775be6ec306e2c69e9e4dc10bd68
+  sha256: 4ffd420f39f226e96aebc3554f9c66a912f6cad6261f39f194f16af8a1f6dab2
 
 build:
   number: 0
