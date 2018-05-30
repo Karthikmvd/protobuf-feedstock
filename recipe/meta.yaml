@@ -17,7 +17,7 @@ build:
 
 requirements:
   build:
-  #  - toolchain
+    - toolchain
     - zlib 1.2.11
     - python
     - setuptools
