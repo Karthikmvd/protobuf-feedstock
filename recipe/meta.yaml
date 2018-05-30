@@ -17,7 +17,7 @@ build:
 
 requirements:
   build:
-    - toolchain
+    - toolchain # [not ppc64le]
     - zlib 1.2.11
     - python
     - setuptools
