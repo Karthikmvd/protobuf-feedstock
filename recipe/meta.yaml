@@ -1,5 +1,5 @@
 {% set version = "3.5.2" %}
-
+{% set version1 = "3.5.1" %}
 package:
   name: protobuf
   version: {{ version }}
@@ -21,7 +21,7 @@ requirements:
     - zlib 1.2.11
     - python
     - setuptools
-    - libprotobuf {{ version }}
+    - libprotobuf {{ version1 }}
     - six
     - ordereddict                # [py26]
     - unittest2                  # [py26]
@@ -29,7 +29,7 @@ requirements:
     - zlib 1.2.11
     - python
     - setuptools
-    - libprotobuf {{ version }}
+    - libprotobuf {{ version1 }}
     - six
     - ordereddict                # [py26]
     - unittest2                  # [py26]
